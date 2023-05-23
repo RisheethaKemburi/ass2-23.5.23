@@ -1,0 +1,19 @@
+#include<stdio.h>
+main(){
+	int i,n,r,temp,sum=0;
+	int f;
+	printf("enter a number");
+	scanf("%d",&n);
+	temp=n;
+	for(r=n;r>0;r=r/10){
+		f=f*i;
+	}
+	sum=sum+f;
+	if(sum==temp){
+		printf("strong num");
+	}
+	else
+	{
+	    printf("not strong num");	
+	}
+}
